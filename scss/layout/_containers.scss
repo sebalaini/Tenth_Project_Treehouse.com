@@ -40,6 +40,29 @@ img {
 
 
 
+/*************
+LIGHTBOX
+*************/
 
+.lb-image {
+	@include mobile {
+		margin: 0 auto;
+		max-width: 800px;
+		width: 300px!important;
+		height: 300px!important;
+	}
+	@include mobile2 {
+		width: 420px!important;
+		height: 420px!important;
+	}
+	@include tablet {
+		width: 500px!important;
+		height: 500px!important;
+	}
+}
+
+.lb-caption {
+	color: $white;
+}
 
 
