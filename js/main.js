@@ -1,6 +1,6 @@
 $('.gallery').ready(function () {
 
-var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 var flickrOptions = {
   tags: "nature",
   format: "json"
@@ -8,8 +8,8 @@ var flickrOptions = {
   function displayPhotos(data) {
     var photoHTML = '<ul>';
     $.each(data.items,function(i,photo) {
-      photoHTML += '<li class="grid-25 tablet-grid-50">';
-      photoHTML += '<a href="' + photo.link + '" class="image">';
+      photoHTML += '<li class="grid-25">';
+      photoHTML += '<a href="' + photo.media.m + '" data-lightbox="image"">';
       photoHTML += '<img src="' + photo.media.m + '"></a></li>';
     });
   photoHTML += '</ul>';

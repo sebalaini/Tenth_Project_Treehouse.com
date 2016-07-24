@@ -14,9 +14,10 @@ header {
 
 ul {
   list-style: none;
+  padding-left: 0;
   display: flex;
+  -webkit-flex-wrap: wrap; /* Safari */
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 img {
