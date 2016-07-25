@@ -1,0 +1,15 @@
+/*************
+GENERAL
+*************/
+
+h1 {
+	@include mobile {
+		font-size: 1.5em; 
+	}
+	@include mobile2 {
+		font-size: 3em; 
+	}
+}
+
+
+
