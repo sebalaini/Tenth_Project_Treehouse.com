@@ -1,5 +1,3 @@
 # Tenth_Project_Treehouse.com
-Tenth_Project_Treehouse.com
 
-In this project i have to use a public APIs and create a webpage gallery.
-I use a Flickr API for the images and Lightbox API.
+Many web sites, like Twitter, Flickr, Facebook, and IMDB provide APIs or application programming interfaces in order to let other web sites access their content and information. Communicating with APIs allows you to work with microservices and vast databases, to build useful tools and relevant information quickly and easily. You can build utilities, games, infographics, and more. I used JavaScript programming and AJAX to build a gallery of information drawn from another site's public API.
